@@ -46,7 +46,7 @@ Test 1 — Guest Isolation (Critical Security Test)
 From: PC-Guest (192.168.30.10)
 To:   EHR-Server (192.168.10.3)
 
-Result: Packets Sent = 4, Received = 0, Lost = 4 (100% loss) ✅
+Result: Packets Sent = 4, Received = 0, Lost = 4 (100% loss) 
 
 The ACL successfully blocks all unauthorized guest traffic from reaching patient medical records.
 
@@ -54,7 +54,7 @@ Test 2 — Clinical Access Verification
 From: PC-Clinical (192.168.10.2)
 To:   EHR-Server (192.168.10.3)
 
-Result: Packets Sent = 4, Received = 4, Lost = 0 (0% loss) ✅
+Result: Packets Sent = 4, Received = 4, Lost = 0 (0% loss) 
 
 Authorized clinical staff retain full, unimpeded access to the EHR Server.
 
@@ -75,9 +75,9 @@ Authorized clinical staff retain full, unimpeded access to the EHR Server.
     ├──   Fig5_PCClinical_DHCP.png
     ├──  Fig6_EHRServer_DHCP.png
     ├──  Fig7_ACL_Configuration.png
-    ├──   Fig8_Guest_Isolation_Test.png  ← 100% packet loss ✅
-    └──   Fig9_Clinical_Access_Test.png  ← 0% packet loss ✅
-🔧 How to Open the Simulation
+    ├──   Fig8_Guest_Isolation_Test.png  ← 100% packet loss 
+    └──   Fig9_Clinical_Access_Test.png  ← 0% packet loss 
+ How to Open the Simulation
 Download and install Cisco Packet Tracer (free with Cisco NetAcad account)
 Open HealthcareNetwork.pkt
 Click on PC-Guest → Desktop → Command Prompt
